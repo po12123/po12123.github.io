@@ -1,0 +1,110 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 963px;
+  background: #D8CEAB;
+}
+
+
+#lechuga {
+transform: matrix(-1, 0.03, 0.03, 1, 0, 0);
+position: absolute;
+width: 358.7px;
+height: 330.46px;
+left: 1400px;
+top: 756px;
+
+
+}
+#reloj {
+transform: rotate(-18.52deg);
+position: absolute;
+width: 934px;
+height: 911px;
+left: 1300px;
+top: 50px;
+}
+#zanahoria {
+transform: rotate(-51.35deg);
+position: absolute;
+width: 581.9px;
+height: 543.16px;
+left: 1100px;
+top: 800px;
+}
+#hamburguesa {
+position: absolute;
+width: 979px;
+height: 1098px;
+left: 1400px;
+top: 264px;
+
+}
+
+.form-register {
+ 
+  margin: 200px;
+  margin-top: 50px;
+  border-radius: 2px;
+  font-family: 'calibri';
+  color: #9E5344;
+
+}
+
+.form-register h4 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Bungee';
+}
+.form-register h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 454px;
+  height: 55px;
+  background: #D9D9D9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #D9D9D9;
+  border: none;
+  padding: 12px;
+  color: #9E5344;
+
+  font-family: 'Bungee';
+  font-size: 25px;
+}
+

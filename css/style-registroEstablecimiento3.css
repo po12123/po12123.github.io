@@ -1,0 +1,204 @@
+
+.formulario_label {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.formulario_grupo-input {
+	position: relative;
+  margin: 1%;
+}
+
+.formulario_input {
+	width: 100%;
+  height: 15%;
+  background: #D9D9D9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 0%;
+  font-family: 'Merienda One';
+  font-size: 18px;
+  color: black;
+}
+.formulario_input_file{
+  width: 50%;
+  height: 15%;
+  background: #D9D9D9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 0%;
+  font-family: 'Merienda One';
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+.formulario_mensaje p {
+	margin: 0;
+}
+.formulario_input:focus {
+	border: 3px solid #00ffaa;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario_input-error {
+	font-size: 95%;
+	margin-bottom: 0;
+	display: none;
+  font-family: 'Merienda One';
+  color: #bb2929;
+}
+
+.formulario_input-error-activo {
+	display: block;
+}
+.formulario_input-error2{
+	font-size: 95%;
+	margin-bottom: 0;
+	display: none;
+  font-family: 'Merienda One';
+  color: #bb2929;
+}
+.formulario_input-error-activo2 {
+	display: block;
+}
+.formulario_mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario_mensaje-activo {
+	display: block;
+}
+.formulario_validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 25%;
+	z-index: 100;
+	font-size: 25px;
+	opacity: 0;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario_grupo-correcto .formulario_validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_label {
+	color: #bb2929;
+}
+
+.formulario_grupo-incorrecto .formulario_validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_input {
+	border: 3px solid #bb2929;
+}
+.formulario_grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.formulario_btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+
+
+  background: #D9D9D9;
+  border: none;
+  color: #9E5344;
+
+  font-family: 'Arial';
+  font-size: 25px;
+}
+
+.formulario_btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+.formulario_mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario_mensaje-exito-activo {
+	display: block;
+}
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario_grupo-terminos, 
+	.formulario_mensaje,
+	.formulario_grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario_btn {
+		width: 100%;
+	}
+}
+/*estilo original*/
+#lechuga {
+  display: none;
+
+
+}
+#reloj {
+  display: none;
+}
+#zanahoria {
+  display: none;
+}
+#hamburguesa {
+  display: none;
+
+}
+body { 
+  width: 100%;
+  height: 100%;
+  background: #D8CEAB;
+}
+
+.form-register {
+ 
+  max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+  font-family: 'Merienda One';
+  color: #9E5344;
+
+}
+
+.form-register h4 {
+  font-size: 250%;
+  margin-bottom: 20px;
+  font-family: 'Bungee';
+}
+
+
+
+@media screen and (min-height: 1080px) and (min-width: 900px){
+  .form-register {
+ 
+    width: 50%;
+  
+  }
+
+}
